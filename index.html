@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
     <title>Silicon Valley Trivia!</title>
 </head>
 
@@ -16,23 +17,30 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="timer-box">time</h1>
+            <div class="col-lg-10">
+                <h1 id="title-box">Silicon Valley Trivia</h1>
+            </div>
+                <div class="col-lg-2">
+                    <h1 id="timer-box">time</h1>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-5"></div>
+            <div class="col-lg-3">
                 <button id="start-button">COMMENCE</button>
                 <p id="result-box">results</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="question-box">question</h1>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-8">
+                <h1 id="question-box">question</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-8">
                 <p id="answer-1">answer1</p>
                 <p id="answer-2">answer2</p>
                 <p id="answer-3">answer3</p>
@@ -40,6 +48,8 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  
 
 </body>
 
